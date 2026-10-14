@@ -1,2 +1,30 @@
-# python-vision-basic-project
-MediaPipe+OpenCV è§†è§‰é¡¹ç›®ï¼ŒåŸºç¡€è¯†åˆ«æ‰‹åŠ¿ä½ç½®å¹¶è¾“å‡ºåæ ‡
+# Ê³Ö¸Ö¸¼âÊµÊ±¸ú×Ù
+»ùÓÚMediaPipe HandLandmarker£¬µ÷ÓÃÉãÏñÍ·ÊµÊ±×·×ÙÊ³Ö¸Ö¸¼â£¬´òÓ¡Ö¸¼âÏñËØ×ø±ê¡£
+
+## °²×°ÒÀÀµ
+```bash
+pip install -r requirements.txt
+## Ä£ĞÍ×¼±¸
+
+ÊÖ¶¯ÏÂÔØ `hand_landmarker.task` ·Åµ½ÏîÄ¿¸ùÄ¿Â¼
+ÏÂÔØµØÖ·£º
+[https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task](https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task)
+
+## ÔËĞĞ
+
+```
+python text_hand.py
+```
+
+- ÉãÏñÍ·»­Ãæ×ö¾µÏñ´¦Àí
+- »­ÃæÂÌÉ«Ô²È¦±ê¼ÇÊ³Ö¸Ö¸¼â
+- ¿ØÖÆÌ¨Êä³öÊ³Ö¸ x¡¢y ÏñËØ×ø±ê
+- °´¼üÅÌ `q` ÍË³ö³ÌĞò
+
+## ÏîÄ¿Ô­Àí
+
+1. OpenCV ¶ÁÈ¡ÉãÏñÍ·Ö¡£¬»­ÃæË®Æ½¾µÏñ
+2. BGR Í¼Ïñ×ªÎª RGB£¬ËÍÈë HandLandmarker ÊÖ²¿Ä£ĞÍ
+3. VIDEO ÊÓÆµÁ÷Ä£Ê½ÍÆÀí£¬´«ÈëµİÔöÊ±¼ä´Á
+4. »ñÈ¡ÊÖ²¿¹Ø¼üµã£¬È¡³öÊ³Ö¸Ö¸¼â£¨id=8£©
+5. ×ª»»ÎªÏñËØ×ø±ê£¬´òÓ¡²¢»æÖÆ±ê¼Çµã
